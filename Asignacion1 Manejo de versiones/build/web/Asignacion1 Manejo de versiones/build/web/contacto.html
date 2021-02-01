@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    <head>
+        <title>Formulario de contacto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="datosPersonales.html">Datos personales</a></li>
+                <li class="item-r"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </body>
+    <form enctype="text/plain" action="mailto:michelle.naffate205164@potros.itson.edu.mx?subject=Formulario"
+          method=post  >
+
+        <h2>CONTACTO</h2>
+        <input type="text" name="nombre" placeholder="Nombre"required >
+        <input type="text" name="Correo" placeholder="Correo"required >
+        <textarea name="mensaje" rows="5" cols="80" placeholder="Escriba aqui su mensaje"required >
+        </textarea>
+        <input type="submit" value="Enviar" id="boton">
+        <input type="reset" value="Limpiar" />
+    </form>
+    <body>
+
+    
+
